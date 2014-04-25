@@ -6,14 +6,14 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:            Alex Manusu
+tagline:          'A blog based on <a href="https://github.com/poole/hyde">Hyde</a>'
+description:      'A personal blog of a UNSW student'
 url:              http://hyde.getpoole.com
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Alex Manusu'
+  url:            https://twitter.com/alexvision
 
 paginate:         5
 
