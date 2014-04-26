@@ -2,7 +2,7 @@
 layout: page
 title: About
 ---
-
+ 
 
 ## Overview
 I'm currently studying Information Systems at UNSW as part of the Co-Op Scholarship. I'm  writing an Honours Thesis on Bitcoin adoption. I'm addicted to knowing what is going on in tech. I love traveling and I am an avid sailor. 
@@ -14,5 +14,5 @@ I'm looking for somewhere to work next year, if you're interested my resume is <
 
 ## Contact Details
   email: alex.manusu@gmail.com  
-  twitter: [@alexvision](http://twitter.com/alexvision)
+  twitter: [@AlexManusu](http://twitter.com/AlexManusu)
 
