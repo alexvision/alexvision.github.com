@@ -1,0 +1,91 @@
+html {
+	border-top: 5px #E76049 solid;
+}
+
+a {
+	color: #E76049;
+	text-decoration: none;
+}
+
+a:hover{
+		font-weight: 700;
+		text-decoration: none;
+}
+
+p {
+	font-family: "Fira Sans";
+	font-weight: 300;
+	font-size: 1.2em;
+	
+}
+
+body {
+	margin: auto;
+	padding-top: 3em;
+}
+
+.odd{
+
+	background-color: #222222;
+/*	background-color: #E76049;*/
+	color: #FFFFFF;
+
+}
+
+.pgContent{
+	width: 66%;
+	margin: 0px auto;
+	
+
+}
+
+#hero{
+
+	text-align:center;
+	height: 60vh;
+	padding-top:15%;
+	/*display: table-cell;
+    vertical-align: middle;
+    padding-bottom: 4px;*/
+
+
+}
+
+#section1{
+	height: 60vh;
+	padding-top: 8%;
+}
+
+h1.header {
+	/*margin-top: 9em;*/
+	font-family: "Lato";
+	margin: auto;
+	color: #1a1a1a;
+	font-size: 4.25em;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+button{
+	font-family:"Lato";
+	font-size: 150%;
+	color:#1a1a1a;
+	border: 2px solid #E76049;
+}
+
+h2.about {
+	font-family: "Lato";
+	font-size: 2em;
+	font-weight: 200;
+}
+
+
+
+::selection {
+       background-color: #E76049;
+       color: #fff;
+
+::-moz-selection {
+       background-color: #E76049;
+       color: #fff;
+}
