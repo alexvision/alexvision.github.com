@@ -12,6 +12,7 @@ a:hover{
 	text-decoration: none;
 }
 
+
 p {
 	font-family: "Fira Sans";
 	font-weight: 300;
@@ -96,10 +97,14 @@ h2.about {
 }
 
 h2.tl {
-	font-family: "Fira";
+	font-family: "Fira Sans";
 	font-size: 1.2em;
 	font-weight: 200;
 }
+span.cd-date {
+	font-family: "Fira Sans";
+}
+
 
 
 /*-------Timeline---------*/
@@ -196,7 +201,7 @@ Main components
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
-	box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+	box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0), 0 3px 0 4px rgba(0, 0, 0, 0);
 }
 .cd-timeline-img img {
 	display: block;
@@ -208,7 +213,7 @@ Main components
 	margin-left: -12px;
 	margin-top: -12px;
 }
-.cd-timeline-img.cd-picture {
+.cd-timeline-img.cd-breifcase {
 	background: #75ce66;
 }
 .cd-timeline-img.cd-hat {
@@ -364,7 +369,7 @@ Main components
 		top: 24px;
 		left: 100%;
 		border-color: transparent;
-		border-left-color: white;
+		border-left-color: #F0f0f0;
 	}
 
 	.cd-timeline-content .cd-date {
@@ -383,7 +388,7 @@ Main components
 		left: auto;
 		right: 100%;
 		border-color: transparent;
-		border-right-color: white;
+		border-right-color: #f0f0f0;
 	}
 
 	.cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date {
