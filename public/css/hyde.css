@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "Merriweather", Helvetica, Arial, sans-serif;
+  font-family: "Fira Sans", Helvetica, Arial, sans-serif;
 }
 @media (min-width: 48rem) {
   html {
@@ -46,7 +46,15 @@ html {
   }
 }
 
+a {
+  color: #E76049;
+  text-decoration: none;
+}
 
+a:hover{
+  font-weight: 700;
+  text-decoration: none;
+}
 /*
  * Sidebar
  *
@@ -80,9 +88,9 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Dosis", serif;
+  font-family: "Lato", serif;
+  font-weight: 200;
   font-size: 2.5rem;
-  /*font-weight: lighter;*/
 }
 
 /* Sidebar nav */
