@@ -46,6 +46,13 @@ ul li a i {
     
 }
 
+ul li a i {
+	transition: all 0.1s ease-in-out;
+}
+ul li a i:hover {
+	color: #bfbfbf;
+}
+
 .dark{
 
 	background-color: #222222;
