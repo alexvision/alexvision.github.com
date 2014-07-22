@@ -16,4 +16,10 @@ jQuery(document).ready(function($){
 			}
 		});
 	});
+	//scrolling for contact button
+   $( "#moreButton" ).click(function() {
+      $('html, body').animate({
+       scrollTop: $("#about").offset().top
+   }, 1000);
+   });
 });
