@@ -583,6 +583,7 @@ Main components
 ::selection {
 	background-color: #E76049;
 	color: #fff;
+}
 
 	::-moz-selection {
 		background-color: #E76049;
