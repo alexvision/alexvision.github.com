@@ -13,4 +13,6 @@ We appear to currently be in a stage where the adoption by merchants has far out
 
 It will be interesting to see how willing the consumer side will be to spend Bitcoin, as the deflationary nature of the currency would suggest that consumers are less incentivised to spend, which will likely make the consumer adoption even more exponential (flatter for longer with a sharp rise at the end). 
 
+Some merchants have offered discounts to try and get more users buying with Bitcoin, but I'm not aware of any companies that have released any numbers around how a discount impacts usage of Bitcoin. Of course discounts are likely to increase sales, but by how much, or more interestingly at what price did the consumers buy their Bitcoin at. 
+
 For the meantime we are seeing traders increasing the volume of trades as the traders try and profit off the volatility of the currency rather than looking for an absolute high price which attracted the speculators which drove the price up in late 2013. 
