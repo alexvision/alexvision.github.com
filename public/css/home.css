@@ -590,3 +590,45 @@ Main components
 		background-color: #E76049;
 		color: #fff;
 	}
+
+header {
+	width: 90%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+#hero {
+	background: linear-gradient(180deg, #ffffff 0%, #fff8f6 100%);
+	border-radius: 12px;
+}
+
+button {
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+	transform: translateY(-1px);
+	box-shadow: 0 8px 20px rgba(231, 96, 73, 0.25);
+}
+
+.cd-timeline-content {
+	border-radius: 8px;
+	box-shadow: 0 6px 18px rgba(17, 17, 17, 0.08);
+}
+
+@media only screen and (max-width: 768px) {
+	.pgContent {
+		width: 88%;
+	}
+
+	h1.header {
+		font-size: 2.8em;
+	}
+
+	ul li a i {
+		font-size: 24px;
+		width: 40px;
+		height: 40px;
+	}
+}

@@ -1,6 +1,6 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown:         kramdown
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
@@ -9,7 +9,7 @@ permalink:        pretty
 title:            Alex Manusu
 tagline:          'A site made by Alex Manusu about Alex Manusu'
 description:      'The journal of Alex Manusu'
-url:              http://alexmanusu.com
+url:              https://alexmanusu.com
 
 author:
   name:           'Alex Manusu'
@@ -18,7 +18,7 @@ author:
 paginate:         5
 
 # Custom vars
-version:          2.0.0
+version:          2.1.0
 
 github:
   repo:           https://github.com/poole/hyde
