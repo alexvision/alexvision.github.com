@@ -1,25 +1,44 @@
-jQuery(document).ready(function($){
-	var $timeline_block = $('.cd-timeline-block');
+document.addEventListener('DOMContentLoaded', function () {
+  var timelineBlocks = document.querySelectorAll('.cd-timeline-block');
+  var revealThreshold = 0.75;
 
-	//hide timeline blocks which are outside the viewport
-	$timeline_block.each(function(){
-		if($(this).offset().top > $(window).scrollTop()+$(window).height()*0.75) {
-			$(this).find('.cd-timeline-img, .cd-timeline-content').addClass('is-hidden');
-		}
-	});
+  function revealTimelineBlocks() {
+    var viewportBottom = window.scrollY + (window.innerHeight * revealThreshold);
 
-	//on scolling, show/animate timeline blocks when enter the viewport
-	$(window).on('scroll', function(){
-		$timeline_block.each(function(){
-			if( $(this).offset().top <= $(window).scrollTop()+$(window).height()*0.75 && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) {
-				$(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
-			}
-		});
-	});
-	//scrolling for contact button
-   $( "#moreButton" ).click(function() {
-      $('html, body').animate({
-       scrollTop: $("#about").offset().top
-   }, 1000);
-   });
+    timelineBlocks.forEach(function (block) {
+      var icon = block.querySelector('.cd-timeline-img');
+      var content = block.querySelector('.cd-timeline-content');
+      if (!icon || !content) {
+        return;
+      }
+
+      if (block.offsetTop <= viewportBottom && icon.classList.contains('is-hidden')) {
+        icon.classList.remove('is-hidden');
+        content.classList.remove('is-hidden');
+        icon.classList.add('bounce-in');
+        content.classList.add('bounce-in');
+      }
+    });
+  }
+
+  timelineBlocks.forEach(function (block) {
+    if (block.offsetTop > window.scrollY + (window.innerHeight * revealThreshold)) {
+      var icon = block.querySelector('.cd-timeline-img');
+      var content = block.querySelector('.cd-timeline-content');
+      if (icon && content) {
+        icon.classList.add('is-hidden');
+        content.classList.add('is-hidden');
+      }
+    }
+  });
+
+  window.addEventListener('scroll', revealTimelineBlocks);
+
+  var moreButton = document.getElementById('moreButton');
+  var aboutSection = document.getElementById('about');
+  if (moreButton && aboutSection) {
+    moreButton.addEventListener('click', function () {
+      aboutSection.scrollIntoView({ behavior: 'smooth' });
+    });
+  }
 });
